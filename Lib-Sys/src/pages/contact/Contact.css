@@ -1,0 +1,28 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.contact {
+    max-width: 660px;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #0000;
+    font-family: cursive;
+}
+.input-contact{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.input{
+    margin-left: 3rem;
+}
+.btn {
+    background-color: purple;
+    padding: 12px;
+    color: white;
+    margin-top: 28px;
+    font-size: 1.8rem;
+}

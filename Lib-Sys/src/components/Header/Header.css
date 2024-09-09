@@ -1,6 +1,6 @@
 .header-content {
     min-height: 75vh;
-    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../assets/young-female-reading-book-leaning-shelf.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(75, 176, 223, 0.3), rgba(190, 63, 233, 0.5)), url("../../assets/young-female-reading-book-leaning-shelf.jpg") center/cover no-repeat;
     flex-direction: column;
 }
 .header-title{

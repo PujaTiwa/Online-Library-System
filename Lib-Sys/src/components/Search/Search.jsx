@@ -32,7 +32,7 @@ const Search = () => {
             <div className="search-element flex flex-sb bg-white">
               <input type="text" 
               className="form-control"
-              placeholder="The Lost World ..." ref={searchText} />
+              placeholder="Enter book name to search..." ref={searchText} />
               <button type="submit" className="flex flex-c">
                 <FaSearch className='text-purple' size={32} />
               </button>

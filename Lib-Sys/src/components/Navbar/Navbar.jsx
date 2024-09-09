@@ -7,13 +7,14 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu ] = useState(false);
   const handleNav = () => setToggleMenu(!toggleMenu);
+
   return (
     <nav className='navbar' id='navbar'>
       <div className='container navbar-content flex'>
         <div className='brand-toggler flex flex-sb'>
           <Link to='/' className='navbar-brand flex'>
             {/* <img src={logo} alt='logo' /> */}
-            <span className='text-uppercase fw-7 fs-24 ls-1'>BookHub</span>
+            <span className='text-uppercase fw-7 fs-24 ls-1'>BooksCollection</span>
           </Link>
           <button type='button' className='navbar-toggler-btn' onClick={handleNav} >
             <HiOutlineMenuAlt3 size={35} style={{
@@ -29,6 +30,9 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <Link to='/about' className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>About</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/contact' className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact</Link>
             </li>
           </ul>
         </div>

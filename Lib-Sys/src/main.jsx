@@ -9,6 +9,8 @@ import About from './pages/About/About.jsx';
 import BookList from './components/BookList/BookList.jsx'
 import BookDetails from './components/BookDetails/BookDetails.jsx'
 import { AppProvider } from './context.jsx';
+import Contact from './pages/contact/contact.jsx';
+import Error from './components/Error.jsx';
 
 createRoot(document.getElementById('root')).render(
   <AppProvider>
@@ -16,9 +18,12 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Home />}>
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/book' element={<BookList />} />
           <Route path='/book/:id' element={<BookDetails />} />
         </Route>
+
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>,
   </AppProvider>
