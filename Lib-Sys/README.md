@@ -25,8 +25,6 @@ Currently, two official plugins are available:
 
 - Error Handling using react-router
 
-# To install uuid package
-- npm i uuid --> UUID (Universally Unique Identifier) package is used to generate unique identifiers that can be used in a variety of applications
 
 # To push to code on git command
 - git init
